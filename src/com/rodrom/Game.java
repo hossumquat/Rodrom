@@ -42,7 +42,7 @@ public class Game implements Runnable {
 	public void run() {
 		LoadSave.loadConfig();
 		LoadSave.loadMaster();
-		LoadIcons.load();
+//		LoadIcons.load();
 
 		mapArray = new MapArray();
 		mapArray.load("main.map");

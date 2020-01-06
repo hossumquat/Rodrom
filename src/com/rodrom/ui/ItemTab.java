@@ -13,7 +13,7 @@ public class ItemTab extends JPanel {
 	public BufferedImage image = null;
 
 	public ItemTab() {
-		image = LoadIcons.getImage(3);
+//		image = LoadIcons.getImage(3);
 	}
 
 	public void paintComponent(Graphics g) {
