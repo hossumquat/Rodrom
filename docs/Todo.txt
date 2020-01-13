@@ -1,0 +1,9 @@
+* finish Item class load() and save()
+* finish ItemBase class.  May want to wait on this until we are sure all the data is accounted for (i.e. not going to add/remove member variables).  Will need load() and save()
+* add Items and Item Bases editor code (ItemEditTab class and ItemBaseEditTab class).  An item base is an item definition while items are instances of item bases.
+* add a new LootList class to track a loot list (or table) for a creature/chest/etc.  This will represent the items and probabilites and can be shared (i.e. several creatures could point to the same common loot list).
+* add Loot Lists editor code (LootListEditTab class)
+* finish CreatureBase class.  May want to wait on this for the same reasons as for itemBase above.
+* add Creatures editor code (CreatureBase class).  Actual creatures will be spawned from CreatureBase instances in game, based on zones.
+* add Zone class to track zones.  Every square in a dungeon will be assigned to a zone, which controls what creatures can spawn and their probabilities/group size/etc.  Could also control things like biome if we want.  Maybe properties like fog and darkness should be data of zones rather than of dungeon squares.  Probably.
+* add the main menu
